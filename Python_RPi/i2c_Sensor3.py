@@ -138,26 +138,6 @@ class MPL3115A2:
 		raw_temp = int.from_bytes(results[0], byteorder="big")
 		return (raw_temp >> 4) 
 
-	"""
-	def get_pressure(self):
-#		self.write_reg(0x26, 0xB8)
-#		self.write_reg(0x13, 0x07)
-
-#		self.write_reg(0x26, 0xB9)
-		self.toggle_one_shot()
-
-		while True:
-			sta = self.read_reg(0x00)
-			if (sta & 0x08) :
-				break
-
-		self.bus.transaction(i2c.writing_bytes(self.ADDR, self.CMD_OUT_P_MSB))
-		results = self.bus.transaction(i2c.reading(self.ADDR, 4))
-
-		raw_temp = int.from_bytes(results[0], byteorder="big")
-		return (raw_temp >> 4) 
-	"""
-
 class ATTiny:
 	ADDR = 0x6A
 	CMD_PORT_LOW = 0x80
