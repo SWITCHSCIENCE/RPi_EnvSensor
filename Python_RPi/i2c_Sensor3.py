@@ -136,7 +136,7 @@ class MPL3115A2:
 		results = self.bus.transaction(i2c.reading(self.ADDR, 4))
 
 		raw_temp = int.from_bytes(results[0], byteorder="big")
-		return (raw_temp >> 4) 
+		return (raw_temp >> 6) 
 
 class ATTiny:
 	ADDR = 0x6A
@@ -178,7 +178,7 @@ if __name__ == '__main__':
 	while 1:
 		tdat = sen_htu.get_temp()
 		hdat = sen_htu.get_humidity()
-		pdat = sen_mpl.get_pressure() / 400
+		pdat = sen_mpl.get_pressure() / 100
 		ldat = sen_light.read_ad()
 
 		print ("tmp : {0:6.2f}  /  hum : {1:6.2f}  /  bar : {2:7.2f}  /  light : {3}".format(tdat, hdat, pdat, ldat))
