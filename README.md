@@ -14,3 +14,18 @@ Softwares for RPi_EnvSensor board by Switch Science Inc.
 
 　※サンプルアプリは「Python3 + Quick2wireライブラリ（モジュール）」の環境で動きます。
 
+Hardware
+========
+
+###温度湿度センサ  
+[HTU21D](http://www.meas-spec.com/product/humidity/HTU21D.aspx)
+
+###大気圧センサ
+[MPL3115A2](http://www.freescale.com/ja/webapp/sps/site/prod_summary.jsp?code=MPL3115A2)
+
+###照度センサ
+[PT19-21C/L41/TR8(pdf)](http://www.everlight.com/file/ProductFile/PT19-21C-L41-TR8.pdf)  
+(ATTINY85経由でI<sup>2</sup>Cで接続)
+
+###液晶
+[AQM0802A](http://akizukidenshi.com/catalog/g/gP-06669/)
