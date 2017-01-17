@@ -8,6 +8,7 @@ Softwares for RPi_EnvSensor board by Switch Science Inc.
    +  I2Cslave.h  --------  ファームウェア全体で使われる define
    +  USI_TWI_Slave.c  ---  USI を使った I2C バス関連の処理（サブルーチンと割り込み処理）
    +  USI_TWI_Slave.h  ---  I2Cバス関連の define
+   +  I2Cslave.hex  ------  ファームウェアの Hexファイル
 
 > Python_RPi  --------  Raspberry Pi 用の Python スクリプトの格納ディレクトリ
    +  i2c_Sensor4.py  ----  センサー基板をドライブするサンプルアプリ
