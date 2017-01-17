@@ -10,7 +10,8 @@ Softwares for RPi_EnvSensor board by Switch Science Inc.
    +  USI_TWI_Slave.h  ---  I2Cバス関連の define
 
 > Python_RPi  --------  Raspberry Pi 用の Python スクリプトの格納ディレクトリ
-   +  i2c_Sensor3.py  ----  センサー基板をドライブするサンプルアプリ（β版）
+   +  i2c_Sensor4.py  ----  センサー基板をドライブするサンプルアプリ
+                            (オプション液晶[AQM1248A]の表示ルーチン込)
 
 Hardware
 ========
