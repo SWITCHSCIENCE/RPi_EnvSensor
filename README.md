@@ -12,20 +12,14 @@ Softwares for RPi_EnvSensor board by Switch Science Inc.
 > Python_RPi  --------  Raspberry Pi 用の Python スクリプトの格納ディレクトリ
    +  i2c_Sensor3.py  ----  センサー基板をドライブするサンプルアプリ（β版）
 
-　※サンプルアプリは「Python3 + Quick2wireライブラリ（モジュール）」の環境で動きます。
-
 Hardware
 ========
 
-###温度湿度センサ  
-[HTU21D](http://www.meas-spec.com/product/humidity/HTU21D.aspx)
+###環境センサー
+[BME280](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280_DS001-11.pdf)
 
-###大気圧センサ
-[MPL3115A2](http://www.freescale.com/ja/webapp/sps/site/prod_summary.jsp?code=MPL3115A2)
+###照度センサー（フォトトランジスタ）
+[APT2012P3BT](https://www.kingbrightusa.com/images/catalog/spec/APT2012P3BT.pdf)
 
-###照度センサ
-[PT19-21C/L41/TR8(pdf)](http://www.everlight.com/file/ProductFile/PT19-21C-L41-TR8.pdf)  
-(ATTINY85経由でI<sup>2</sup>Cで接続)
-
-###液晶
-[AQM0802A](http://akizukidenshi.com/catalog/g/gP-06669/)
+###赤外線LED
+[APT1608F3C](https://www.kingbrightusa.com/images/catalog/spec/APT1608F3C.pdf)
