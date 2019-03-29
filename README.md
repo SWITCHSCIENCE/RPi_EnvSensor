@@ -3,25 +3,26 @@ RPi_EnvSensor
 
 Softwares for RPi_EnvSensor board by Switch Science Inc.
 
-> ATTiny  ------------  ATTiny85‚É‘‚«‚Ü‚ê‚½ƒtƒ@[ƒ€ƒEƒFƒA‚ÌŠi”[ƒfƒBƒŒƒNƒgƒŠ
-   +  main.c  ------------  ‰Šú‰»AƒƒCƒ“ƒ‹[ƒvAADƒRƒ“ƒo[ƒ^ŠÖ˜A‚Ìˆ—
-   +  I2Cslave.h  --------  ƒtƒ@[ƒ€ƒEƒFƒA‘S‘Ì‚Åg‚í‚ê‚é define
-   +  USI_TWI_Slave.c  ---  USI ‚ğg‚Á‚½ I2C ƒoƒXŠÖ˜A‚Ìˆ—iƒTƒuƒ‹[ƒ`ƒ“‚ÆŠ„‚è‚İˆ—j
-   +  USI_TWI_Slave.h  ---  I2CƒoƒXŠÖ˜A‚Ì define
-   +  I2Cslave.hex  ------  ƒtƒ@[ƒ€ƒEƒFƒA‚Ì Hexƒtƒ@ƒCƒ‹
+> ATTiny  ------------  ATTiny85ã«æ›¸ãè¾¼ã¾ã‚ŒãŸãƒ•ã‚¡ãƒ¼ãƒ ã‚¦ã‚§ã‚¢ã®æ ¼ç´ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
+   +  main.c  ------------  åˆæœŸåŒ–ã€ãƒ¡ã‚¤ãƒ³ãƒ«ãƒ¼ãƒ—ã€ADã‚³ãƒ³ãƒãƒ¼ã‚¿é–¢é€£ã®å‡¦ç†
+   +  I2Cslave.h  --------  ãƒ•ã‚¡ãƒ¼ãƒ ã‚¦ã‚§ã‚¢å…¨ä½“ã§ä½¿ã‚ã‚Œã‚‹ define
+   +  USI_TWI_Slave.c  ---  USI ã‚’ä½¿ã£ãŸ I2C ãƒã‚¹é–¢é€£ã®å‡¦ç†ï¼ˆã‚µãƒ–ãƒ«ãƒ¼ãƒãƒ³ã¨å‰²ã‚Šè¾¼ã¿å‡¦ç†ï¼‰
+   +  USI_TWI_Slave.h  ---  I2Cãƒã‚¹é–¢é€£ã® define
+   +  I2Cslave.hex  ------  ãƒ•ã‚¡ãƒ¼ãƒ ã‚¦ã‚§ã‚¢ã® Hexãƒ•ã‚¡ã‚¤ãƒ«
+   +  readme.md  --------- ãƒ’ãƒ¥ãƒ¼ã‚ºè¨­å®š
 
-> Python_RPi  --------  Raspberry Pi —p‚Ì Python ƒXƒNƒŠƒvƒg‚ÌŠi”[ƒfƒBƒŒƒNƒgƒŠ
-   +  i2c_Sensor4.py  ----  ƒZƒ“ƒT[Šî”Â‚ğƒhƒ‰ƒCƒu‚·‚éƒTƒ“ƒvƒ‹ƒAƒvƒŠ
-                            (ƒIƒvƒVƒ‡ƒ“‰t»[AQM1248A]‚Ì•\¦ƒ‹[ƒ`ƒ“)
+> Python_RPi  --------  Raspberry Pi ç”¨ã® Python ã‚¹ã‚¯ãƒªãƒ—ãƒˆã®æ ¼ç´ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
+   +  i2c_Sensor4.py  ----  ã‚»ãƒ³ã‚µãƒ¼åŸºæ¿ã‚’ãƒ‰ãƒ©ã‚¤ãƒ–ã™ã‚‹ã‚µãƒ³ãƒ—ãƒ«ã‚¢ãƒ—ãƒª
+                            (ã‚ªãƒ—ã‚·ãƒ§ãƒ³æ¶²æ™¶[AQM1248A]ã®è¡¨ç¤ºãƒ«ãƒ¼ãƒãƒ³è¾¼)
 
 Hardware
 ========
 
-###ŠÂ‹«ƒZƒ“ƒT[
+###ç’°å¢ƒã‚»ãƒ³ã‚µãƒ¼
 [BME280](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280_DS001-11.pdf)
 
-###Æ“xƒZƒ“ƒT[iƒtƒHƒgƒgƒ‰ƒ“ƒWƒXƒ^j
+###ç…§åº¦ã‚»ãƒ³ã‚µãƒ¼ï¼ˆãƒ•ã‚©ãƒˆãƒˆãƒ©ãƒ³ã‚¸ã‚¹ã‚¿ï¼‰
 [APT2012P3BT](https://www.kingbrightusa.com/images/catalog/spec/APT2012P3BT.pdf)
 
-###ÔŠOüLED
+###èµ¤å¤–ç·šLED
 [APT1608F3C](https://www.kingbrightusa.com/images/catalog/spec/APT1608F3C.pdf)
